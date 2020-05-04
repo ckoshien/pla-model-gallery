@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/pla-model-gallery/static/css/main.a67dceed.chunk.css",
+    "main.js": "/pla-model-gallery/static/js/main.c8afebb1.chunk.js",
+    "runtime-main.js": "/pla-model-gallery/static/js/runtime-main.577c6e2b.js",
+    "static/js/2.f202d566.chunk.js": "/pla-model-gallery/static/js/2.f202d566.chunk.js",
+    "index.html": "/pla-model-gallery/index.html",
+    "precache-manifest.377e0e7783ba94bde0111793393d1155.js": "/pla-model-gallery/precache-manifest.377e0e7783ba94bde0111793393d1155.js",
+    "service-worker.js": "/pla-model-gallery/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.577c6e2b.js",
+    "static/js/2.f202d566.chunk.js",
+    "static/css/main.a67dceed.chunk.css",
+    "static/js/main.c8afebb1.chunk.js"
+  ]
+}
