@@ -44,7 +44,7 @@ class App extends React.Component {
           built:false
         },
         {
-          src:'/img/zgmf-x09a_rg_144/CjDmf1FUoAANrwE.jpg',
+          src:'./img/zgmf-x09a_rg_144/CjDmf1FUoAANrwE.jpg',
           title: 'RG 1/144 ZGMF-X09A Justice'
         },
         {
@@ -52,52 +52,114 @@ class App extends React.Component {
           title: '1/100 ZGMF-X13A Providence'
         },
         {
-          src:'/img/gat-x131_144/P_20160918_222942_edit.jpg',
+          src:'./img/gat-x131_144/P_20160918_222942_edit.jpg',
           title: 'HG 1/144 GAT-X131 Calamity'
         },
         {
-          src:'/img/gat-x370_144/P_20160922_183201_edit.jpg',
+          src:'./img/gat-x370_144/P_20160922_183201_edit.jpg',
           title: 'HG 1/144 GAT-X370 Raider'
+        },
+        {
+          src:'https://bandai-hobby.net/images/153_2554_s_llxdpwcln9rckapec8c8mq0z2ut6.jpg',
+          title: 'MG 1/100 GAT-X105E STRIKE NOIR',
+          built:false
         }
       ]
     },
     gundam_seed_destiny:{
       series:'機動戦士ガンダムSEED DESTINY',
-      models:[]
+      models:[
+        {
+          src: "https://bandai-a.akamaihd.net/bc/img/model/b/1000136416_1.jpg",
+          title: "MG 1/100 ZGMF-X56S SWORD IMPULSE",
+          built:false
+        },
+        {
+          src: "./img/zgmf-x23s_100/main.jpg",
+          title: "1/100 ZGMF-X23S SAVIOUR",
+        },
+        {
+          src: "./img/zgmf-x24s_100/main.jpg",
+          title: "1/100 ZGMF-X24S CHAOS",
+        },
+        {
+          src: "./img/zgmf-x31s_144/main.jpg",
+          title: "HG 1/144 ZGMF-X31S ABYSS",
+        },
+        {
+          src: "./img/zgmf-1000_100/main.jpg",
+          title: "1/100 ZGMF-1000 ZAKU WARRIOR",
+        },
+        {
+          src: "./img/zgmf-x2000_144/main.jpg",
+          title: "1/100 ZGMF-X2000 GOUF IGNITED",
+        },
+        {
+          src: "./img/zgmf-x19a_100/main.jpg",
+          title: "1/100 ZGMF-X19A ∞JUSTICE",
+        },
+        {
+          src: "./img/zgmf-x666s_100/main.jpg",
+          title: "1/100 ZGMF-X666S LEGEND",
+        },
+        
+        {
+          src: "./img/zgmf-x20a_mg_100/main.jpg",
+          title: "MG 1/100 ZGMF-X20A STRIKE FREEDOM",
+        },
+        {
+          src: "https://bandai-hobby.net/images/153_973_s_7kvclzya4wkbhjzg1kyfe0mukytc.jpg",
+          title: "RG 1/144 ZGMF-X20A STRIKE FREEDOM",
+          built:false
+        },
+        {
+          src: "./img/zgmf-x20a_hgce_144/main.jpg",
+          title: "HGCE 1/144 ZGMF-X20A STRIKE FREEDOM"
+        },
+        {
+          src: "https://bandai-hobby.net/images/153_872_o_1ddksev8t1kb2fri1lij1ktu1f7u23.jpg",
+          title: "RG 1/144 ZGMF-X42S DESTINY",
+          built:false
+        },
+        {
+          src: "./img/zgmf-x42s_hgce_144/main.jpg",
+          title: "HGCE 1/144 ZGMF-X42S DESTINY",
+        },
+      ]
     },
     gundam_00_1st: {
       series: "機動戦士ガンダム00 1st season",
       models: [
         {
-          src: "/img/gn-001_rg_144/P_20160821_212514_edit.jpg",
+          src: "./img/gn-001_rg_144/P_20160821_212514_edit.jpg",
           title: "RG 1/144 GN-001 Exia",
         },
         {
-          src: "/img/gn-002_100/CplcFjRVMAMiLWn.jpg",
+          src: "./img/gn-002_100/CplcFjRVMAMiLWn.jpg",
           title: "1/100 GN-002 Dynames",
         },
         {
-          src: "/img/gn-003_100/CpLbmwpUkAAR33n.jpg",
+          src: "./img/gn-003_100/CpLbmwpUkAAR33n.jpg",
           title: "1/100 GN-003 Kyrios",
         },
         {
-          src: "/img/gn-005_100/P_20160814_221712_1_edit.jpg",
+          src: "./img/gn-005_100/P_20160814_221712_1_edit.jpg",
           title: "1/100 GN-005 Virtue",
         },
         {
-          src: "/img/gn-005_144/P_20180623_152714_1.jpg",
+          src: "./img/gn-005_144/P_20180623_152714_1.jpg",
           title: "HG 1/144 GN-005 Virtue",
         },
         {
-          src: "/img/gnw-001_144/P_20170528_225712.jpg",
+          src: "./img/gnw-001_144/P_20170528_225712.jpg",
           title: "1/144 GNW-001 Throne Eins",
         },
         {
-          src: "/img/gnw-002_144/P_20170614_231850.jpg",
+          src: "./img/gnw-002_144/P_20170614_231850.jpg",
           title: "1/144 GNW-002 Throne Zwei",
         },
         {
-          src: "/img/svms-01o/P_20170326_204214_edit.jpg",
+          src: "./img/svms-01o/P_20170326_204214_edit.jpg",
           title: "1/100 SVMS-01O Over Flag",
         },
         {
@@ -111,27 +173,27 @@ class App extends React.Component {
       series:'機動戦士ガンダム00 2nd season',
       models:[
         {
-          src: "/img/gn-0000_rg_144/P_20160904_192250_edit.jpg",
+          src: "./img/gn-0000_rg_144/P_20160904_192250_edit.jpg",
           title: "HG 1/144 GN-0000 00 Raiser",
         },
         {
-          src: "/img/gn-006_100/P_20160821_194018_1.jpg",
+          src: "./img/gn-006_100/P_20160821_194018_1.jpg",
           title: "1/100 GN-006 Cherudim",
         },
         {
-          src: "/img/gn-007_144/P_20180826_181938_1.jpg",
+          src: "./img/gn-007_144/P_20180826_181938_1.jpg",
           title: "HG 1/144 GN-007 Arios",
         },
         {
-          src: "/img/gn-008_100/P_20161204_201743_edit.jpg",
+          src: "./img/gn-008_100/P_20161204_201743_edit.jpg",
           title: "1/100 GN-008 SERAVEE",
         },
         {
-          src: "/img/gn-008gnhwb_144/81640348_125288462296131_7026885342011029578_n.jpg",
+          src: "./img/gn-008gnhwb_144/81640348_125288462296131_7026885342011029578_n.jpg",
           title: "HG 1/144 GN-008 SERAVEE GNHW/B",
         },
         {
-          src: "/img/cb-0000g_144/P_20170701_210050.jpg",
+          src: "./img/cb-0000g_144/P_20170701_210050.jpg",
           title: "HG 1/144 CB-0000G/C Reborns",
         },
       ]
