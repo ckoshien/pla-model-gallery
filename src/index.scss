@@ -5,7 +5,7 @@ body{
 
 .image_style{
   width: 100px;
-  height: 200px;
+  height: 230px;
   object-fit: cover;
   &.not_built{
     filter:brightness(40%);
@@ -17,4 +17,30 @@ body{
   text-decoration: underline;
   text-decoration-color: green;
   margin: 10px;
+}
+
+.badge{
+  &.scale{
+    &._100{
+      background-color:#2b2ba7;
+    }
+    &._144{
+      background-color:#5454a5;
+    }
+  }
+  &.grade{
+    &.HG{
+      background-color: #c38fc0;
+    }
+    &.MG{
+      background-color: #d60000;
+    }
+    &.RG{
+      background-color: #e255d6;
+    }
+  }
+  border-radius:3px;
+  padding:3px;
+  margin:3px;
+  color:#d0d0d0;
 }
