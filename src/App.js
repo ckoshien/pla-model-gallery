@@ -50,6 +50,7 @@ class App extends React.Component {
                     : "image_style not_built"
                 }
                 src={models[i].src}
+                alt={models[i].name}
               />
 
               <div
