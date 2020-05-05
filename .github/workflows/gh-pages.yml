@@ -24,14 +24,14 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-node-
 
-    - name: install
-      run: yarn ci
+    #- name: install
+      #run: yarn ci
 
     - name: build
       run: yarn build
 
-    - name: export
-      run: yarn export
+    #- name: export
+      #run: yarn export
 
     - name: add nojekyll
       run: touch ./out/.nojekyll
