@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/pla-model-gallery/static/css/main.c87fcefa.chunk.css",
-    "main.js": "/pla-model-gallery/static/js/main.833923eb.chunk.js",
-    "runtime-main.js": "/pla-model-gallery/static/js/runtime-main.577c6e2b.js",
-    "static/js/2.f202d566.chunk.js": "/pla-model-gallery/static/js/2.f202d566.chunk.js",
+    "main.js": "/pla-model-gallery/static/js/main.4bffef65.chunk.js",
+    "runtime-main.js": "/pla-model-gallery/static/js/runtime-main.161ab1f5.js",
+    "static/js/2.0a81aa11.chunk.js": "/pla-model-gallery/static/js/2.0a81aa11.chunk.js",
     "index.html": "/pla-model-gallery/index.html",
-    "precache-manifest.c2bdc06306351687d376a3309c1238fd.js": "/pla-model-gallery/precache-manifest.c2bdc06306351687d376a3309c1238fd.js",
+    "precache-manifest.2507151960b64b5abcbefd90350f256f.js": "/pla-model-gallery/precache-manifest.2507151960b64b5abcbefd90350f256f.js",
     "service-worker.js": "/pla-model-gallery/service-worker.js"
   },
   "entrypoints": [
-    "static/js/runtime-main.577c6e2b.js",
-    "static/js/2.f202d566.chunk.js",
+    "static/js/runtime-main.161ab1f5.js",
+    "static/js/2.0a81aa11.chunk.js",
     "static/css/main.c87fcefa.chunk.css",
-    "static/js/main.833923eb.chunk.js"
+    "static/js/main.4bffef65.chunk.js"
   ]
 }
